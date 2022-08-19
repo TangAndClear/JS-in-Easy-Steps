@@ -1,6 +1,6 @@
 function loadXML() {
     const xmlhttp = new XMLHttpRequest()
-    xmlhttp.open('GET', 'books.xml', true)
+    xmlhttp.open('GET', 'https://raw.githubusercontent.com/TangAndClear/JS-in-Easy-Steps/main/books.xml', true)
     xmlhttp.send()
     xmlhttp.onreadystatechange = function() {
         if( this.readyState == 4 && this.status == 200)
