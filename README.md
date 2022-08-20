@@ -2,7 +2,7 @@
 working through the book by Mike McGrath
 
 20 Aug 2022 1:51PM update: 
-When I launch chap9.html and click the button, I get this error:
+When I launch chap9.html locally and click the button, I get this error:
 
     chap9.js:13 Uncaught TypeError: Cannot read properties of null (reading 'getElementsByTagName')
         at getData (chap9.js:13:25)
